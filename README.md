@@ -25,7 +25,7 @@
 
 1. `add-host`
    ![add-host](https://github.com/nick-mp/gitlab-hw/blob/main/2-1.png)
-2. `add-host`
-   ![add-host](https://github.com/nick-mp/gitlab-hw/blob/main/2-2.png)
+2. `host-logs`
+   ![host-logs](https://github.com/nick-mp/gitlab-hw/blob/main/2-2.png)
 3. `zabbix-srv-latest-data`
    ![zabbix-srv-latest-data](https://github.com/nick-mp/gitlab-hw/blob/main/2-3.png)

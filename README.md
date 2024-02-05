@@ -10,16 +10,22 @@
    ![OS](https://github.com/nick-mp/gitlab-hw/blob/main/1-1.png)
 2. `Zabbix-srv`
   ![Zabbix-srv](https://github.com/nick-mp/gitlab-hw/blob/main/1-2.png)
-4. `![Zabbix-install](https://github.com/nick-mp/gitlab-hw/blob/main/1-3.png)
-5. `![Zabbix-agent1](https://github.com/nick-mp/gitlab-hw/blob/main/1-4.png)
-6. `![Zabbix-agent2-on-srv](https://github.com/nick-mp/gitlab-hw/blob/main/1-5.png)
+3. `Zabbix-install`
+   ![Zabbix-install](https://github.com/nick-mp/gitlab-hw/blob/main/1-3.png)
+4. `Zabbix-agent1`
+ ![Zabbix-agent1](https://github.com/nick-mp/gitlab-hw/blob/main/1-4.png)
+5. `Zabbix-agent2-on-srv`
+   ![Zabbix-agent2-on-srv](https://github.com/nick-mp/gitlab-hw/blob/main/1-5.png)
 
 ---
 
 ### Задание 2
 
-`Приведите ответ в свободной форме........`
+`Добавить Zabbix agent к Zabbix серверу`
 
-1. `![add-host](https://github.com/nick-mp/gitlab-hw/blob/main/2-1.png)
-2. `![zabbix-agent-log](https://github.com/nick-mp/gitlab-hw/blob/main/2-2.png)
-3. `![zabbix-srv-latest-data](https://github.com/nick-mp/gitlab-hw/blob/main/2-3.png)
+1. `add-host`
+   ![add-host](https://github.com/nick-mp/gitlab-hw/blob/main/2-1.png)
+2. `add-host`
+   ![add-host](https://github.com/nick-mp/gitlab-hw/blob/main/2-2.png)
+3. `zabbix-srv-latest-data`
+   ![zabbix-srv-latest-data](https://github.com/nick-mp/gitlab-hw/blob/main/2-3.png)

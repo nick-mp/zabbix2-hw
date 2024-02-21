@@ -1,31 +1,56 @@
 # Домашнее задание к занятию "`Система мониторинга Zabbix`" - `Горегляд Николай`
 
-
-
 ### Задание 1
+`Создайте свой шаблон, в котором будут элементы данных, мониторящие загрузку CPU и RAM хоста.`
 
-`Установите Zabbix Server с веб-интерфейсом.`
+`Процесс выполнения`
+`Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.`
+`В веб-интерфейсе Zabbix Servera в разделе Templates создайте новый шаблон`
+`Создайте Item который будет собирать информацию об загрузке CPU в процентах`
+`Создайте Item который будет собирать информацию об загрузке RAM в процентах`
+`Требования к результату`
+` Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»`
 
-1. `OS`
-   ![OS](https://github.com/nick-mp/gitlab-hw/blob/main/1-1.png)
-2. `Zabbix-srv`
-  ![Zabbix-srv](https://github.com/nick-mp/gitlab-hw/blob/main/1-2.png)
-3. `Zabbix-install`
-   ![Zabbix-install](https://github.com/nick-mp/gitlab-hw/blob/main/1-3.png)
-4. `Zabbix-agent1`
- ![Zabbix-agent1](https://github.com/nick-mp/gitlab-hw/blob/main/1-4.png)
-5. `Zabbix-agent2-on-srv`
-   ![Zabbix-agent2-on-srv](https://github.com/nick-mp/gitlab-hw/blob/main/1-5.png)
+1. `Task_1`
+   ![Task](https://github.com/nick-mp/zabbix2-hw/blob/main/Task_1.png)
 
 ---
 
 ### Задание 2
 
-`Добавить Zabbix agent к Zabbix серверу`
+`Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.`
 
-1. `add-host`
-   ![add-host](https://github.com/nick-mp/gitlab-hw/blob/main/2-1.png)
-2. `host-logs`
-   ![host-logs](https://github.com/nick-mp/gitlab-hw/blob/main/2-2.png)
-3. `zabbix-srv-latest-data`
-   ![zabbix-srv-latest-data](https://github.com/nick-mp/gitlab-hw/blob/main/2-3.png)
+`Установите Zabbix Agent на 2 виртмашины, одной из них может быть ваш Zabbix Server`
+`Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов`
+`Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera`
+`Прикрепите за каждым хостом шаблон Linux by Zabbix Agent`
+`Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов`
+
+`Результат данного задания сдавайте вместе с заданием 3`
+
+---
+### Задание 3
+
+`Привяжите созданный шаблон к двум хостам. Также привяжите к обоим хостам шаблон Linux by Zabbix Agent`
+
+`Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.`
+`Зайдите в настройки каждого хоста и в разделе Templates прикрепите к этому хосту ваш шаблон`
+`Так же к каждому хосту привяжите шаблон Linux by Zabbix Agent`
+`Проверьте что в раздел Latest Data начали поступать необходимые данные из вашего шаблона`
+
+1. `Task_2`
+   ![Task](https://github.com/nick-mp/zabbix2-hw/blob/main/Task_1.png)
+2. `Task_3`
+   ![Task](https://github.com/nick-mp/zabbix2-hw/blob/main/Task_1.png)
+
+---
+
+### Задание 4
+
+`Создайте свой кастомный дашборд.`
+
+`Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.`
+`В разделе Dashboards создайте новый дашборд`
+`Разместите на нём несколько графиков на ваше усмотрение.`
+2. `Task_3`
+   ![Task](https://github.com/nick-mp/zabbix2-hw/blob/main/Task_4.png)

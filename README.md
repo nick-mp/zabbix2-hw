@@ -39,9 +39,8 @@
 `Проверьте что в раздел Latest Data начали поступать необходимые данные из вашего шаблона`
 
 1. `Task_2`
-   ![Task](https://github.com/nick-mp/zabbix2-hw/blob/main/Task_1.png)
-2. `Task_3`
-   ![Task](https://github.com/nick-mp/zabbix2-hw/blob/main/Task_1.png)
+   ![Task](https://github.com/nick-mp/zabbix2-hw/blob/main/Task_2-3.png)
+
 
 ---
 
